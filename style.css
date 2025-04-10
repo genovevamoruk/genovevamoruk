@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
+    margin: 0;
+    padding: 0;
+    background-color: #5b5c5e; /* Mengubah warna background menjadi lebih lembut */
+}
+
+h1 {
+    color: #0b0101; /* Mengubah warna judul menjadi merah muda */
+    text-align: center;
+    background-color: #f7e3e3; /* Tetap menggunakan latar belakang putih untuk kontras */
+    padding: 20px;
+    border-radius: 20px; /* Menambah border radius pada judul */
+    box-shadow: 0px 0px 10px white(180, 37, 37, 0.1); /* Menambah bayangan pada judul */
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Menambah border radius pada gambar */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Menambah bayangan pada gambar */
+}
+
+p {
+    text-align: center;  
+    color: #0b0101; /* Tetap menggunakan warna teks yang sama */
+}
+
+.navbar {
+    background-color: #080000; /* Mengubah warna background navbar menjadi putih */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Menambah bayangan pada navbar */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #000000; /* Menggunakan warna teks yang lebih gelap pada navbar */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff6b6b; /* Mengubah warna highlight pada navbar menjadi merah muda */
+}
+
+.btn-custom {
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+    color: #fff;
+    transition: all 0.3s;
+    border-radius: 20px; /* Menambah border radius pada tombol */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Menambah bayangan pada tombol */
+}
+
+.btn-custom:hover {
+    background-color: #ff8787;
+    border-color: #ff8787;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    border-top: 5px solid #ff6b6b; /* Menambah border atas pada footer */
+}
+
+footer a {
+    color: #090101;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ff6b6b;
+}
+
